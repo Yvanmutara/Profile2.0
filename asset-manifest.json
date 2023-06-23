@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/Profile2.0/static/js/main.cb09fc53.js",
+    "static/media/profile-bg.jpg": "/Profile2.0/static/media/profile-bg.8931dcb81632fe6a425c.jpg",
+    "index.html": "/Profile2.0/index.html",
+    "main.cb09fc53.js.map": "/Profile2.0/static/js/main.cb09fc53.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.cb09fc53.js"
+  ]
+}
