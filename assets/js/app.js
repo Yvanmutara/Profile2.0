@@ -98,35 +98,35 @@ window.addEventListener('load', function() {
 			}
 		}
 	}
-	function windowResizeHover() {
-		feather.replace();
-		var windowSize = document.documentElement.clientWidth;
-		if (windowSize < 1025 && windowSize > 767) {
+	// function windowResizeHover() {
+	// 	feather.replace();
+	// 	var windowSize = document.documentElement.clientWidth;
+	// 	if (windowSize < 1025 && windowSize > 767) {
 			
-			if(document.querySelector(".hamburger-icon")){
-			document.querySelector(".hamburger-icon").classList.add("open");
-		}
-		} else if (windowSize >= 1025) {
+	// 		if(document.querySelector(".hamburger-icon")){
+	// 		document.querySelector(".hamburger-icon").classList.add("open");
+	// 	}
+	// 	} else if (windowSize >= 1025) {
 	
-			if(document.querySelector(".hamburger-icon")){
-			document.querySelector(".hamburger-icon").classList.remove("open");
-			}
-		} else if (windowSize <= 767) {
+	// 		if(document.querySelector(".hamburger-icon")){
+	// 		document.querySelector(".hamburger-icon").classList.remove("open");
+	// 		}
+	// 	} else if (windowSize <= 767) {
 			
-			if (sessionStorage.getItem("data-layout") != "horizontal") {
-				document.documentElement.setAttribute("data-sidebar-size", "lg");
-			}
-			if(document.querySelector(".hamburger-icon")){
-			document.querySelector(".hamburger-icon").classList.add("open");
-		}
-		}
+	// 		if (sessionStorage.getItem("data-layout") != "horizontal") {
+	// 			document.documentElement.setAttribute("data-sidebar-size", "lg");
+	// 		}
+	// 		if(document.querySelector(".hamburger-icon")){
+	// 		document.querySelector(".hamburger-icon").classList.add("open");
+	// 	}
+	// 	}
 	
-		var isElement = document.querySelectorAll("#navbar-nav > li.nav-item");
-		Array.from(isElement).forEach(function (item) {
-			item.addEventListener("click", menuItem.bind(this), false);
-			item.addEventListener("mouseover", menuItem.bind(this), false);
-		});
-	}
+	// 	var isElement = document.querySelectorAll("#navbar-nav > li.nav-item");
+	// 	Array.from(isElement).forEach(function (item) {
+	// 		item.addEventListener("click", menuItem.bind(this), false);
+	// 		item.addEventListener("mouseover", menuItem.bind(this), false);
+	// 	});
+	// }
 	
 	function isLoadBodyElement() {
 		var verticalOverlay = document.getElementsByClassName("vertical-overlay");
@@ -165,8 +165,8 @@ window.addEventListener('load', function() {
 			feather.replace();
 		});
 	
-		window.addEventListener("resize", windowResizeHover);
-		windowResizeHover();
+		// window.addEventListener("resize", windowResizeHover);
+		// windowResizeHover();
 	
 		document.addEventListener("scroll", function () {
 			windowScroll();
