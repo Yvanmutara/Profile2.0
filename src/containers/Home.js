@@ -9,7 +9,7 @@ const Home = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the time as per your needs
+    }, 1500); // Adjust the time as per your needs
   })
 
   if(loading)
