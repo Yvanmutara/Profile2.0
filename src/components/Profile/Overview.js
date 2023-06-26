@@ -216,7 +216,7 @@ const Overview = () => {
                         <div>
                             <img src="assets/images/git.png" />
                             <p className="legend fst-italic text-muted">
-                                Deplyoment
+                                Deployment
                             </p>
                         </div>
                         </Carousel>
