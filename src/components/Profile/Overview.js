@@ -97,7 +97,7 @@ const Overview = () => {
                   <div className="card-body">
                       <h5 className="card-title mb-4">Database management</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
-                          <a href="#javascript" className="badge badge-soft-primary">Postgres</a>
+                          <a href="#javascript" className="badge badge-soft-primary">PostgreSql</a>
                           <a href="#javascript" className="badge badge-soft-primary">Mysql</a>
                       </div>
                   </div>
@@ -136,7 +136,7 @@ const Overview = () => {
                       <h5 className="card-title mb-4">Other related technologie skills</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
                           <a href="#javascript" className="badge badge-soft-primary">Ajax</a>
-                          <a href="#javascript" className="badge badge-soft-primary">DOcker</a>
+                          <a href="#javascript" className="badge badge-soft-primary">Docker</a>
                           <a href="#javascript" className="badge badge-soft-primary">Scrum agile methodologie</a>
                           <a href="#javascript" className="badge badge-soft-primary">Arduino</a>
                           <a href="#javascript" className="badge badge-soft-primary">Raspberry Pi</a>
@@ -192,19 +192,19 @@ const Overview = () => {
                         <div>
                             <img src="assets/images/api.jpg" />
                             <p className="legend fst-italic text-muted">
-                                Api's && Microservices
+                                Api's & Microservices
                             </p>
                         </div>
                         <div>
                             <img src="assets/images/debug.webp" />
                             <p className="legend fst-italic text-muted">
-                                Testing && Debugging
+                                Testing & Debugging
                             </p>
                         </div>
                         <div>
                             <img src="assets/images/security.jpg" />
                             <p className="legend fst-italic text-muted">
-                                Security and maintenance
+                                Security & maintenance
                             </p>
                         </div>
                         <div>
@@ -222,7 +222,7 @@ const Overview = () => {
                         </Carousel>
                           <p className='text-muted'><em>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          - Web-applications development: the backend with django and django REST framework API's, while the frontend with react framework and other third part libraries(material design, etc...)<br></br>
+                          - Web-applications development, the backend with django and django REST framework API's, while the frontend with react framework and other third part libraries(material design, etc...)<br></br>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           - Strong understanding of database management, structure , designing and implementing(django ORM layer for example) for store and retrieve data's<br></br>
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -234,9 +234,9 @@ const Overview = () => {
                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           - Optimization of the application's performance by analyzing and improving its speed, scalability and resources usage.<br></br>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          - Voor de apps version control, i am familiar with Git, a crucial tool to manage code changes, track project progress and coordinate with team members, stackholders, etc ...<br></br>
+                          - For de apps version control, i am familiar with Git, a crucial tool to manage code changes, track project progress and coordinate with team members, stackholders, etc ...<br></br>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                          - Deplyoment django application to production environment.<br></br>
+                          - Deployment django application to production environment.<br></br>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                           - Enabling user experience by implementing the frontend with react , html/css en javascript to create user interfaces.<br></br>
                           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
