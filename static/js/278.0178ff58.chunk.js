@@ -1,2 +1,0 @@
-(self.webpackChunkprofile2_0=self.webpackChunkprofile2_0||[]).push([[278],{278:function(){document.addEventListener("DOMContentLoaded",(function(){var e=document.body;setInterval((function(){var t=500*Math.random(),n=Math.random()*screen.height,a=document.createElement("div");a.classList.add("star"),e.appendChild(a),setInterval((function(){t>=screen.width&&a.remove(),t+=3,a.style.right=t+"px"}),10),a.style.top=n+"px"}),100)}))}}]);
-//# sourceMappingURL=278.0178ff58.chunk.js.map
