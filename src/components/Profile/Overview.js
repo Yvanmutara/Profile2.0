@@ -3,8 +3,9 @@ import PublicIcon from '@mui/icons-material/Public';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { Link } from 'react-router-dom';
+import { withNamespaces } from 'react-i18next';
 
-const Overview = () => {
+const Overview = ({t}) => {
     const styleObject = {
         black:{
             color: 'black',
@@ -21,7 +22,7 @@ const Overview = () => {
                           <table className="table table-borderless mb-0">
                               <tbody>
                                   <tr>
-                                      <th className="ps-0" scope="row">Full Name :</th>
+                                      <th className="ps-0" scope="row">{t('name')}:</th>
                                       <td className="text-muted ">Y Mutara</td>
                                   </tr>
                                   <tr>
@@ -37,7 +38,7 @@ const Overview = () => {
                                       <td className="text-muted">mutara_yvan@hotmail.com</td>
                                   </tr>
                                   <tr>
-                                      <th className="ps-0 " scope="row">Location :</th>
+                                      <th className="ps-0 " scope="row">{t('location')}:</th>
                                       <td className="text-muted">Castalla, Spain
                                       </td>
                                   </tr>
@@ -55,7 +56,7 @@ const Overview = () => {
 
               <div className="card">
                   <div className="card-body">
-                      <h5 className="card-title mb-4">Programming Languages</h5>
+                      <h5 className="card-title mb-4">{t('programing_language')}</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
                           <a href="#javascript" className="badge badge-soft-primary">Python</a>
                           <a href="#javascript" className="badge badge-soft-primary">Php</a>
@@ -72,7 +73,7 @@ const Overview = () => {
               </div>
               <div className="card ">
                   <div className="card-body">
-                      <h5 className="card-title mb-4">Web Frameworks</h5>
+                      <h5 className="card-title mb-4">{t('webframework')}</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
                           <a href="#javascript" className="badge badge-soft-primary">Django</a>
                           <a href="#javascript" className="badge badge-soft-primary">Django REST framework</a>
@@ -85,7 +86,7 @@ const Overview = () => {
               </div>
               <div className="card ">
                   <div className="card-body">
-                      <h5 className="card-title mb-4">Librairies</h5>
+                      <h5 className="card-title mb-4">{t('libraries')}</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
                           <a href="#javascript" className="badge badge-soft-primary">Jquery</a>
                           <a href="#javascript" className="badge badge-soft-primary">Redux</a>
@@ -95,7 +96,7 @@ const Overview = () => {
               </div>
               <div className="card">
                   <div className="card-body">
-                      <h5 className="card-title mb-4">Database management</h5>
+                      <h5 className="card-title mb-4">{t('db')}</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
                           <a href="#javascript" className="badge badge-soft-primary">PostgreSql</a>
                           <a href="#javascript" className="badge badge-soft-primary">Mysql</a>
@@ -105,7 +106,7 @@ const Overview = () => {
               </div>
               <div className="card">
                   <div className="card-body">
-                      <h5 className="card-title mb-4">Version control system</h5>
+                      <h5 className="card-title mb-4">{t('version_control')}</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
                           <a href="#javascript" className="badge badge-soft-primary">Git (Github)</a>
                       </div>
@@ -380,4 +381,4 @@ const Overview = () => {
   )
 }
 
-export default Overview
+export default withNamespaces()(Overview)

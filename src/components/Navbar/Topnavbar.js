@@ -1,20 +1,22 @@
 import React,{useEffect,useRef} from 'react'
 import GitHubIcon from '@mui/icons-material/GitHub';
-import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import FullscreenIcon from '@mui/icons-material/Fullscreen';
 import Button from '@mui/material/Button';
-import { BiArrowToBottom ,BiDownArrowAlt} from "react-icons/bi";
+import { BiArrowToBottom} from "react-icons/bi";
 // import pdfMake from 'pdfmake/build/pdfmake';
 import {generatePDF} from './pdf'
 // import './extern.js'
+import { withNamespaces } from 'react-i18next';
+import i18n from '../../i18n';
 
 
-
-const Topnavbar = () => {
+const Topnavbar = ({ t }) => {
 const ref = useRef(null)
 
+const changeLanguage = (lng) => {
+  i18n.changeLanguage(lng);
+}
 useEffect(() => {
   const importExternalScript = async () => {
     const externalScript = await import('./extern.js');
@@ -37,8 +39,8 @@ useEffect(() => {
                 <span className="logo-lg">
                     <img src="assets/images/logo.png" alt="" height="60" />
                 </span>
-                  <Button  onClick={generatePDF}  size="small" title="Download cv">
-                      Download cv <BiArrowToBottom className='icon-size'/> 
+                  <Button  onClick={generatePDF}  size="small" title={t('cv')}>
+                    {t('cv')}<BiArrowToBottom className='icon-size'/> 
                   </Button> 
             </div>
             <div className='d-flex align-items-start'>
@@ -73,8 +75,10 @@ useEffect(() => {
             </div>
             
           <div className="d-flex align-items-center">
-            <div className="d-flex flex-wrap gap-1" >          
-             
+            <div className="d-flex flex-wrap gap-1" >         
+            <button onClick={() => changeLanguage('fr')}>fr</button>
+            <button onClick={() => changeLanguage('en')}>en</button>
+            <button onClick={() => changeLanguage('sp')}>sp</button>
             </div>
           </div>
           <div className='d-flex align-items-center'>
@@ -93,4 +97,4 @@ useEffect(() => {
   )
 }
 
-export default Topnavbar
+export default withNamespaces()(Topnavbar)
