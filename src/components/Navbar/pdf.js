@@ -47,6 +47,7 @@ export const generatePDF = () => {
                        {text: 'Cell No 1.: +31 6 87621114',style: 'body', margin: [ 0, 5, 0, 0 ]},
                        {text: 'Cell No 2.: +34 604 43 89 58',style: 'body',margin: [ 0, 5, 0, 0 ]},
                        {text: 'E-mail : mutara_yvan@hotmail.com',style: 'body',margin: [ 0, 5, 0, 0 ]},
+                       {text: 'Profile-Website : mutara-yvan.com',color: '#4294d6',link:'https://yvanmutara.github.io/Profile2.0/',style: 'body',margin: [ 0, 5, 0, 0 ]},
                        {text: 'Location : Castalla, Spain',style: 'body',margin: [ 0, 5, 0, 0 ]},
                     ],
                 },
