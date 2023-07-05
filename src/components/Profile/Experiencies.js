@@ -1,6 +1,6 @@
 import React from 'react'
-
-const Experiencies = () => {
+import { withNamespaces } from 'react-i18next';
+const Experiencies = ({t}) => {
   return (
     <div className="tab-pane fade" id="experience" role="tabpanel">
         <div className="card">
@@ -18,12 +18,12 @@ const Experiencies = () => {
                         </div>
                         <div className="flex-grow-1 ms-3">
                             <h6 className="mb-1">DJANGO PYTHON ENGINEER • FACTORY ZERO B.V <span className="badge bg-soft-primary text-primary align-middle">2021 – 2023</span><small className='text-muted text-primary'> The Netherlands</small></h6>
-                            <p className="text-muted mb-2">• Develop and maintain web application using Django,Python , Javascript and React.</p>
-                            <p className="text-muted mb-2">• Collaborate with cross-functional teams to gather requirements and design scalable solutions.</p>
-                            <p className="text-muted mb-2">• Implement RESTful API’S for data retrieval and manipulation</p>
-                            <p className="text-muted mb-2">• Optimize application performance through code refactoring and database query optimization.</p>
-                            <p className="text-muted mb-2">• Analyzing data</p>
-                            <p className="text-muted mb-2">• Help team members to understand the fundamentals of application development.</p>
+                            <p className="text-muted mb-2">• {t('develop_and_maintain')}</p>
+                            <p className="text-muted mb-2">• {t('collaborate_with_cross_function')}</p>
+                            <p className="text-muted mb-2">• {t('implement_rest_full')}</p>
+                            <p className="text-muted mb-2">• {t('optimize_applications')}</p>
+                            <p className="text-muted mb-2">• {t('analize_data')}</p>
+                            <p className="text-muted mb-2">• {t('help_team_members')}</p>
                             {/* <small className="mb-0 text-muted">Today</small> */}
                         </div>
                     </div>
@@ -35,9 +35,9 @@ const Experiencies = () => {
                         </div>
                         <div className="flex-grow-1 ms-3">
                             <h6 className="mb-1">TRIDIUM NIAGARA SOFTWARE ENGINEER • REME <span className="badge bg-soft-primary text-primary align-middle">2020 – 2021</span><small className='text-muted text-primary'> The Netherlands</small></h6>
-                            <p className="text-muted mb-2">• Develop and maintain applications for differents custormers.</p>
-                            <p className="text-muted mb-2">• Develop new funtionalities in de Niagara environment to be able to communicate with third part API’S.</p>
-                            <p className="text-muted mb-2">• Uderstanding the fundamentals of hardware side (sensors , motors, cables)</p>
+                            <p className="text-muted mb-2">• {t('develop_maintain_2')}</p>
+                            <p className="text-muted mb-2">• {t('develop_new_functionalities')}</p>
+                            <p className="text-muted mb-2">• {t('understanding_the_fundamentals')}</p>
                             
                         </div>
                     </div>
@@ -49,11 +49,11 @@ const Experiencies = () => {
                         </div>
                         <div className="flex-grow-1 ms-3">
                             <h6 className="mb-1">FULL STACK DEVELOPER • TRANSIMBIOZE LOGIC S.L VALENCIA <span className="badge bg-soft-primary text-primary align-middle">2019 – 2020</span><small className='text-muted'> Spain</small></h6>
-                            <p className="text-muted mb-2">• Develop and maintain the website.</p>
-                            <p className="text-muted mb-2">• Help in maintaining the intranet app inside the compagny.</p>
-                            <p className="text-muted mb-2">• Develop microservices needed in the compagny.</p>
-                            <p className="text-muted mb-2">• Managing social apps for the compagny.</p>
-                            <p className="text-muted mb-2">• Making flyers, video’s, posters for promotions.</p>
+                            <p className="text-muted mb-2">• {t('develop_maintain_3')}</p>
+                            <p className="text-muted mb-2">• {t('help_in_maintaining_intranet')}</p>
+                            <p className="text-muted mb-2">• {t('develop_microservices')}</p>
+                            <p className="text-muted mb-2">• {t('managing_social_apps')}</p>
+                            <p className="text-muted mb-2">• {t('making_flyers_videos')}</p>
                         </div>
                     </div>
                 </div>
@@ -65,4 +65,4 @@ const Experiencies = () => {
   )
 }
 
-export default Experiencies
+export default withNamespaces()(Experiencies)

@@ -1,6 +1,7 @@
 import React from 'react'
+import { withNamespaces } from 'react-i18next';
 
-export const Educations = () => {
+const Educations = ({ t }) => {
   return (
         <div className="tab-pane fade" id="education" role="tabpanel">
             <div className="card">
@@ -16,7 +17,7 @@ export const Educations = () => {
                             </div>
                             <div className="flex-grow-1 ms-3">
                                 <h6 className="mb-1">RIJN IJSSEL • ARNHEM <span className="badge bg-soft-primary text-primary align-middle">2017 – 2019</span><small className='text-muted text-primary'> The Netherlands</small></h6>
-                                <small className="mb-0 text-muted">Relevant coursework: </small><br></br><br></br>
+                                <small className="mb-0 text-muted">{t('relevant_course_work')} : </small><br></br><br></br>
                                 <div className="d-flex flex-wrap gap-2 fs-15">
                                     <a href="#javascript" className="badge badge-soft-primary">Data Structures</a>
                                     <a href="#javascript" className="badge badge-soft-primary">Algorithms</a>
@@ -34,7 +35,7 @@ export const Educations = () => {
                             </div>
                             <div className="flex-grow-1 ms-3">
                                 <h6 className="mb-1">DE HAN • ARNHEM <span className="badge bg-soft-primary text-primary align-middle">2016 – 2017</span><small className='text-muted text-primary'> The Netherlands</small></h6>
-                                <small className="mb-0 text-muted">Relevant coursework: </small><br></br><br></br>
+                                <small className="mb-0 text-muted">{t('relevant_course_work')}: </small><br></br><br></br>
                                 <div className="d-flex flex-wrap gap-2 fs-15">
                                     <a href="#javascript" className="badge badge-soft-primary">Mathematics</a>
                                     <a href="#javascript" className="badge badge-soft-primary">Physics</a>
@@ -52,7 +53,7 @@ export const Educations = () => {
                             </div>
                             <div className="flex-grow-1 ms-3">
                                 <h6 className="mb-1">SCALDA • VLISSINGEN <span className="badge bg-soft-primary text-primary align-middle">2013 – 2015</span><small className='text-muted text-primary'> The Netherlands</small></h6>
-                                <small className="mb-0 text-muted">Relevant coursework: </small><br></br><br></br>
+                                <small className="mb-0 text-muted">{t('relevant_course_work')} : </small><br></br><br></br>
                                 <div className="d-flex flex-wrap gap-2 fs-15">
                                     <a href="#javascript" className="badge badge-soft-primary">Operating systems (Windows,Debian,Linux)</a>
                                     <a href="#javascript" className="badge badge-soft-primary">Servers and Network</a>
@@ -69,7 +70,7 @@ export const Educations = () => {
                             </div>
                             <div className="flex-grow-1 ms-3">
                                 <h6 className="mb-1">ECOLE SECONDAIRE DE UVIRA • UVIRA <span className="badge bg-soft-primary text-primary align-middle">2004 – 2010</span><small className='text-muted text-primary'> DRC</small></h6>
-                                <small className="mb-0 text-muted">Relevant coursework: </small><br></br><br></br>
+                                <small className="mb-0 text-muted">{t('relevant_course_work')}: </small><br></br><br></br>
                                 <div className="d-flex flex-wrap gap-2 fs-15">
                                     <a href="#javascript" className="badge badge-soft-primary">Mathematics</a>
                                     <a href="#javascript" className="badge badge-soft-primary">Physics</a>
@@ -94,3 +95,5 @@ export const Educations = () => {
         </div>
   )
 }
+
+export default withNamespaces()(Educations)
