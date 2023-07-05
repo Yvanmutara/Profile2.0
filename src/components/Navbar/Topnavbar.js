@@ -75,14 +75,14 @@ useEffect(() => {
             </div>
             
           <div className="d-flex align-items-center">
-            <div className="d-flex flex-wrap gap-1" >         
+          {/*   <div className="d-flex flex-wrap gap-1" >         
               <button onClick={() => changeLanguage('fr')}>fr</button>
-            </div>
+            </div> */}
             <div className="d-flex flex-wrap gap-1" > 
-              <button onClick={() => changeLanguage('en')}>en</button>
+              <button className="btn btn-transparent" onClick={() => changeLanguage('en')}>en</button>
             </div> 
             <div className="d-flex flex-wrap gap-1" > 
-              <button onClick={() => changeLanguage('sp')}>sp</button>
+              <button className="btn btn-transparent" onClick={() => changeLanguage('sp')}>sp</button>
             </div>       
           </div>
           <div className='d-flex align-items-center'>

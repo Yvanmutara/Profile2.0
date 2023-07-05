@@ -447,7 +447,7 @@ export const generatePDF = () => {
                 alignment:'justify',
                 stack: [
                    {text: 'Name: Renée van Noort ',style: 'body', margin: [ 0, 5, 0, 0 ]},
-                   {text: 'Compagny: Factory zero',style: 'body',margin: [ 0, 5, 0, 0 ]},
+                   {text: 'Company: Factory zero',style: 'body',margin: [ 0, 5, 0, 0 ]},
                    {text: 'Function: R&D Manager',style: 'body',margin: [ 0, 5, 0, 0 ]},
                    {text: 'Phone: +31 6 38769808',style: 'body',margin: [ 0, 5, 0, 0 ]},
                    
@@ -457,7 +457,7 @@ export const generatePDF = () => {
               alignment:'justify',
               stack: [
                 {text: 'Name: Maxime Kusseni ',style: 'body', margin: [ 0, 5, 0, 0 ]},
-                {text: 'Compagny: Transimbioze B.V',style: 'body',margin: [ 0, 5, 0, 0 ]},
+                {text: 'Company: Transimbioze B.V',style: 'body',margin: [ 0, 5, 0, 0 ]},
                 {text: 'Function: Administrator',style: 'body',margin: [ 0, 5, 0, 0 ]},
                 {text: 'Phone: +34 664 80 08 28',style: 'body',margin: [ 0, 5, 0, 0 ]},
               ],

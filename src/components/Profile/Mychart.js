@@ -6,7 +6,7 @@ ChartJS.register(...registerables);
 
 const Mychart = () => {
     const chartData = {
-        labels: ['Spain', 'English', 'Ducth','French','Rwandeese','Swahili'],
+        labels: ['Spanish', 'English', 'Dutch','French','Rwandeese','Swahili'],
         datasets: [
           {
             label: 'Language level (scale of 10)',

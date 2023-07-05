@@ -1,7 +1,68 @@
 {
-    "cv": "Descargar CV",
-    "function": "Django Python Engineer | Full Stack Developer",
-    "greeting": "Bienvenido a mi perfil",
-    "name": "Nombre completo",
-    "location": "Dirección"
+    "cv":  "Descargar CV",
+    "function":  "Ingeniero Django Python | Desarrollador Full Stack r",
+    "greeting":   "Bienvenidos a mi perfil",
+    "name":        "Nombre completo",
+    "location":    "Ubicación",
+    "programing_language":   "Lenguajes de programación",
+    "webframework":   "Web Frameworks",
+    "libraries":  "Bibliotecas",
+    "db":  "Gestión de bases de datos",
+    "version_control":  "Sistema de control de versiones",
+    "testing_tool":  "Herramienta de pruebas",
+    "other_related_technologie":  "Otras habilidades tecnológicas relacionadas",
+    "whoiam":  "QUIÉN SOY",
+    "highly_skill_django_python":  "Ingeniero Python altamente calificado de Django con 4 años de experiencia en el desarrollo de aplicaciones web y API. Sólida comprensión de los principios de desarrollo de software, diseño de bases de datos, seguridad y prácticas de rendimiento. Apasionado por crear soluciones robustas y escalables. Excelentes habilidades de resolución de problemas y comunicación",
+    "my_main_skill":  "Mi principal habilidad es diseñar, desarrollar y mantener aplicaciones web utilizando django framework y react js",
+    "what_to_expect_from_me":  "Qué esperar de mí: ",
+    "webapplication_development":  "Desarrollo de aplicaciones web, el backend con django y django REST framework API's, mientras que el frontend con react framework y otras librerías de terceros (diseño de materiales, etc...)",
+    "strong_understanding_of_database":  "Sólida comprensión de la gestión de bases de datos, estructura, diseño e implementación (capa ORM django, por ejemplo) para almacenar y recuperar datos",
+
+    "building_apis":  "Creación de API y microservicios con django y django REST framework ",
+
+    "testing_debugging":  "Pruebas y depuración utilizando pytest y pytest-django para garantizar la calidad y fiabilidad de la aplicación",
+
+    "being_familiar_with_common":  "Estar familiarizado con las prácticas de seguridad comunes para implementar para proteger los datos del usuario y prevenir la vulnerabilidad común. ",
+
+    "optimization_of_the_application":  "Optimización del rendimiento de la aplicación mediante el análisis y la mejora de su velocidad, escalabilidad y uso de recursos",
+
+    "for_the_apps_version_control":  "Para el control de versiones de aplicaciones, estoy familiarizado con Git, una herramienta crucial para administrar los cambios de código, realizar un seguimiento del progreso del proyecto y coordinar con los miembros del equipo, stackholders, etc.",
+
+    "deployment_django":  "Despliegue de la aplicación django al entorno de producción.",
+
+    "enabling_user_experience":  "Habilitación de la experiencia del usuario mediante la implementación del frontend con react , html/css y javascript para crear interfaces de usuario",
+
+    "continuousely_learning":  "Vivo en un aprendizaje continuo y superación personal para mantenerme al día con las últimas tecnologías, métodos, bibliotecas, etc..",
+
+    "develop_and_maintain":  "Desarrollar y mantener aplicaciones web usando Django, Python, Javascript y React.",
+
+    "collaborate_with_cross_function":  "Colaboro con equipos multifuncionales para recopilar requisitos y diseñar soluciones escalables.",
+
+    "implement_rest_full":  "Implementar API RESTful para la recuperación y manipulación de datos",
+
+    "optimize_applications":  "Optimizo el rendimiento de las aplicaciones mediante la refactorización de código y la optimización de consultas de bases de datos",
+
+    "analize_data":  "Análisis de datos",
+
+    "help_team_members":  "Ayudar a los miembros del equipo a comprender los fundamentos del desarrollo de aplicaciones",
+
+    "develop_maintain_2":  "Desarrollar y mantener aplicaciones para diferentes custormers",
+
+    "develop_new_functionalities":  "Desarrollar nuevas funcionalidades en el entorno de Niagara para poder comunicarse con API de terceros.",
+
+    "understanding_the_fundamentals":  "Comprendo los fundamentos del lado del hardware (sensores, motores, cables)",
+
+    "develop_maintain_3":    " Desarrollar y mantener el sitio web",
+
+    "help_in_maintaining_intranet":  "Ayuda en el mantenimiento de la aplicación de intranet dentro de la compañia.",
+
+    "develop_microservices":  "Desarrollo microservicios necesarios en la compañia",
+
+    "managing_social_apps":  "Gestión de aplicaciones sociales para la empresa.",
+
+    "making_flyers_videos":  "Realización de flyers, video's, carteles para promociones",
+
+    "relevant_course_work":  "Cursos relevantes",
+    "languages": "Idiomas"
+
 }

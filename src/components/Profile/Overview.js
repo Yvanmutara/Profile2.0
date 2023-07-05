@@ -11,6 +11,11 @@ const Overview = ({t}) => {
             color: 'black',
         }
     }
+    const styles = {
+        p:{
+            color: "black",
+        }
+    }
   return (
     <div className="tab-pane active" id="home" role="tabpanel">
       <div className="row">
@@ -160,7 +165,7 @@ const Overview = ({t}) => {
                       <p>{t('my_main_skill')}</p><br></br><br></br>
 
                             
-                      <p>{t('what_to_expect_from_me')} : <br></br></p>
+                      <p style={styles.p}>{t('what_to_expect_from_me')} : <br></br></p>
                         <Carousel 
                         infiniteLoop={true}
                         showThumbs={false}
@@ -169,31 +174,31 @@ const Overview = ({t}) => {
                         useKeyboardArrows={true}
                         >
                         <div>
-                            <img src="assets/images/customize.jpg" />
+                            <img src="assets/images/1.png" />
                             <p className="legend fst-italic text-muted" style={styleObject.black}>
                                 Development using  Django & React
                             </p>
                         </div>
                         <div>
-                            <img src="assets/images/db.jpeg" />
+                            <img src="assets/images/2.jpeg" />
                             <p className="legend fst-italic text-muted">
                                 Database management
                             </p>
                         </div>
                         <div>
-                            <img src="assets/images/api.jpg" />
+                            <img src="assets/images/3.png" />
                             <p className="legend fst-italic text-muted">
                                 Api's & Microservices
                             </p>
                         </div>
                         <div>
-                            <img src="assets/images/debug.webp" />
+                            <img src="assets/images/4.jpeg" />
                             <p className="legend fst-italic text-muted">
                                 Testing & Debugging
                             </p>
                         </div>
                         <div>
-                            <img src="assets/images/security.jpg" />
+                            <img src="assets/images/5.webp" />
                             <p className="legend fst-italic text-muted">
                                 Security & maintenance
                             </p>
@@ -205,7 +210,7 @@ const Overview = ({t}) => {
                             </p>
                         </div>
                         <div>
-                            <img src="assets/images/git.png" />
+                            <img src="assets/images/6.webp" />
                             <p className="legend fst-italic text-muted">
                                 Deployment
                             </p>
