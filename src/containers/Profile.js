@@ -3,7 +3,7 @@ import Navigation from '../components/Profile/Navigation'
 import Overview from '../components/Profile/Overview'
 import Experiencies from '../components/Profile/Experiencies'
 import Educations from '../components/Profile/Educations'
-import { LanguageHobbies } from '../components/Profile/LanguageHobbies'
+import LanguageHobbies from '../components/Profile/LanguageHobbies'
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import Person3Icon from '@mui/icons-material/Person3';
 import { FaCode } from "react-icons/fa";

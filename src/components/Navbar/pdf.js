@@ -4,7 +4,7 @@ import pdfFonts from 'pdfmake/build/vfs_fonts';
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
 export const generatePDF = () => {
   const imageUrl = require(`./profile-bg.jpg`);
-
+  var lol = 'Yvan Mutara'
   const getImageDataUrl = async (url) => {
     const response = await fetch(url);
     const blob = await response.blob();
@@ -31,7 +31,7 @@ export const generatePDF = () => {
     return {
       content: [
         {
-            text:  'Curriculum Vitae',
+            text:  "Curriculum Vitae",
             style: 'header',
             alignment: 'center',
             decoration: 'underline'
@@ -42,8 +42,8 @@ export const generatePDF = () => {
                 {
                     alignment:'justify',
                     stack: [
-                       { text: 'Yvan Mutara',style: 'header2',margin: [ 0, 5, 0, 5 ]},
-                       { text: 'Contact & Adress:',style: 'header3',decoration: 'underline',},
+                       { text: lol,style: 'header2',margin: [ 0, 5, 0, 5 ]},
+                       { text: 'Contact & Adres:',style: 'header3',decoration: 'underline',},
                        {text: 'Cell No 1.: +31 6 87621114',style: 'body', margin: [ 0, 5, 0, 0 ]},
                        {text: 'Cell No 2.: +34 604 43 89 58',style: 'body',margin: [ 0, 5, 0, 0 ]},
                        {text: 'E-mail : mutara_yvan@hotmail.com',style: 'body',margin: [ 0, 5, 0, 0 ]},
@@ -510,3 +510,4 @@ export const generatePDF = () => {
     pdfDocGenerator.download('Yvan_cv.pdf');
   });
 };
+

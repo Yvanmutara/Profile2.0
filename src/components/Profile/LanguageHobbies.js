@@ -1,11 +1,10 @@
 import React,{useEffect,useRef} from 'react'
 import Mychart from './Mychart';
+import { withNamespaces } from 'react-i18next';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
-export const LanguageHobbies = () => {
-  
-  
+const LanguageHobbies = ({t}) => {
   return (
         <div className="tab-pane fade" id="languagehobby" role="tabpanel">
            <div className='card'>
@@ -14,10 +13,10 @@ export const LanguageHobbies = () => {
                 <div className="row"> 
                
               <div className='col-lg-6'>
-                <h1>Languages</h1><br></br>
+                <h1>{t('languages')}</h1><br></br>
                 {/* <p>As one of the people who like to travel, visit different countries and cultures, I also like to learn different languages and cultures. Language is a truly tool to understand the true meaning of people's cultures and principles.</p> */}
                 <div>
-                    <Mychart />;
+                    <Mychart />
                 </div>
                 
               </div>
@@ -59,3 +58,5 @@ export const LanguageHobbies = () => {
         </div>
   )
 }
+
+export default withNamespaces()(LanguageHobbies)

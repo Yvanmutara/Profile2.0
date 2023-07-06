@@ -5,6 +5,7 @@ import { Chart as ChartJS, registerables } from 'chart.js';
 ChartJS.register(...registerables);
 
 const Mychart = () => {
+
     const chartData = {
         labels: ['Spanish', 'English', 'Dutch','French','Rwandeese','Swahili'],
         datasets: [

@@ -40,6 +40,7 @@
     "develop_microservices":  "Develop microservices needed in the company",
     "managing_social_apps":  "Managing social apps for the company",
     "making_flyers_videos":  "Making flyers, video’s, posters for promotions",
-    "relevant_course_work":  "Relevant coursework"
+    "relevant_course_work":  "Relevant coursework",
+    "languages": "Languages"
 
 }
