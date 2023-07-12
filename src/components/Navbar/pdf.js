@@ -118,7 +118,7 @@ export const generatePDF = () => {
             {text: '• Collaborate with cross-functional teams to gather requirements and design scalable solutions.',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Implement RESTful API’S for data retrieval and manipulation.',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Optimize application performance through code refactoring and database query optimization.',style:'body',margin:[ 5, 5, 0, 0 ]},
-            {text: '• CI/CD (Continiuousely integration/Continiuousely delivering).',style:'body',margin:[ 5, 5, 0, 0 ]},
+            {text: '• CI/CD pipelines.',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Analyzing data',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Help team members to understand the fundamentals of application development.',style:'body',margin:[ 5, 5, 0, 0 ]},
             
