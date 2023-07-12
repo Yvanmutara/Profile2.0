@@ -22,6 +22,7 @@ const Experiencies = ({t}) => {
                             <p className="text-muted mb-2">• {t('collaborate_with_cross_function')}</p>
                             <p className="text-muted mb-2">• {t('implement_rest_full')}</p>
                             <p className="text-muted mb-2">• {t('optimize_applications')}</p>
+                            <p className="text-muted mb-2">• {t('deployment_django')}</p>
                             <p className="text-muted mb-2">• {t('analize_data')}</p>
                             <p className="text-muted mb-2">• {t('help_team_members')}</p>
                             {/* <small className="mb-0 text-muted">Today</small> */}

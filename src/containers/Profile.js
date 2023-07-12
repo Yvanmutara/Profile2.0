@@ -30,7 +30,7 @@ const Profile = ({t}) => {
                         <h3 className="text-white mb-1"> Y Mutara </h3>
                         <p className="text-white-75">{t('function')} </p>
                         <div className="hstack text-white-50 gap-1">
-                            <div className="me-2"><Person3Icon  /> Castalla, Spain</div>
+                            <div className="me-2"><Person3Icon  /> Arnhem, The Netherlands</div>
                             <div className="me-2">
                                 <ApartmentIcon  /> Factory zero
                             </div>

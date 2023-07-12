@@ -15,8 +15,8 @@
     "highly_skill_django_python":  "Ingeniero Python altamente calificado de Django con 4 años de experiencia en el desarrollo de aplicaciones web y API. Sólida comprensión de los principios de desarrollo de software, diseño de bases de datos, seguridad y prácticas de rendimiento. Apasionado por crear soluciones robustas y escalables. Excelentes habilidades de resolución de problemas y comunicación",
     "my_main_skill":  "Mi principal habilidad es diseñar, desarrollar y mantener aplicaciones web utilizando django framework y react js",
     "what_to_expect_from_me":  "Qué esperar de mí: ",
-    "webapplication_development":  "Desarrollo de aplicaciones web, el backend con django y django REST framework API's, mientras que el frontend con react framework y otras librerías de terceros (diseño de materiales, etc...)",
-    "strong_understanding_of_database":  "Sólida comprensión de la gestión de bases de datos, estructura, diseño e implementación (capa ORM django, por ejemplo) para almacenar y recuperar datos",
+    "webapplication_development":  "Desarrollo de aplicaciones web, el backend con django y django REST framework API's, mientras que el frontend con react framework ",
+    "strong_understanding_of_database":  "Sólida comprensión de la gestión de bases de datos, estructura, diseño e implementación para almacenar y recuperar datos",
 
     "building_apis":  "Creación de API y microservicios con django y django REST framework ",
 
@@ -28,7 +28,7 @@
 
     "for_the_apps_version_control":  "Para el control de versiones de aplicaciones, estoy familiarizado con Git, una herramienta crucial para administrar los cambios de código, realizar un seguimiento del progreso del proyecto y coordinar con los miembros del equipo, stackholders, etc.",
 
-    "deployment_django":  "Despliegue de la aplicación django al entorno de producción.",
+    "deployment_django":  "CI/CD (integración y entrega continuas)",
 
     "enabling_user_experience":  "Habilitación de la experiencia del usuario mediante la implementación del frontend con react , html/css y javascript para crear interfaces de usuario",
 

@@ -48,7 +48,7 @@ export const generatePDF = () => {
                        {text: 'Cell No 2.: +34 604 43 89 58',style: 'body',margin: [ 0, 5, 0, 0 ]},
                        {text: 'E-mail : mutara_yvan@hotmail.com',style: 'body',margin: [ 0, 5, 0, 0 ]},
                        {text: 'Profile-Website : mutara-yvan.com',color: '#4294d6',link:'https://yvanmutara.github.io/Profile2.0/',style: 'body',margin: [ 0, 5, 0, 0 ]},
-                       {text: 'Location : Castalla, Spain',style: 'body',margin: [ 0, 5, 0, 0 ]},
+                       {text: 'Location : Arnhem, Netherland',style: 'body',margin: [ 0, 5, 0, 0 ]},
                     ],
                 },
                 {
@@ -118,6 +118,7 @@ export const generatePDF = () => {
             {text: '• Collaborate with cross-functional teams to gather requirements and design scalable solutions.',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Implement RESTful API’S for data retrieval and manipulation.',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Optimize application performance through code refactoring and database query optimization.',style:'body',margin:[ 5, 5, 0, 0 ]},
+            {text: '• CI/CD (Continiuousely integration/Continiuousely delivering).',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Analyzing data',style:'body',margin:[ 5, 5, 0, 0 ]},
             {text: '• Help team members to understand the fundamentals of application development.',style:'body',margin:[ 5, 5, 0, 0 ]},
             
@@ -358,7 +359,7 @@ export const generatePDF = () => {
             ],
             [
               { text: 'Cloud:', bold: true ,style:'body_title',margin: [ 10, 20, 0, 0 ]}, 
-              { text: ' AWS',bold:false, style:'body',margin: [ 10, 20, 0, 0 ]},
+              { text: 'AWS Solution architect associate',bold:false, style:'body',margin: [ 10, 20, 0, 0 ]},
               { text: '',bold:false, style:'body',margin: [ 10, 20, 0, 0 ]},
               { text: '',bold:false, style:'body',margin: [ 10, 20, 0, 0 ]},
               { text: '',bold:false, style:'body',margin: [ 10, 20, 0, 0 ]},

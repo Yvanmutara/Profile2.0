@@ -132,7 +132,7 @@ const Overview = ({t}) => {
                   <div className="card-body">
                       <h5 className="card-title mb-4">Cloud</h5>
                       <div className="d-flex flex-wrap gap-2 fs-15">
-                          <a href="#javascript" className="badge badge-soft-primary">AWS</a>
+                          <a href="#javascript" className="badge badge-soft-primary">AWS Solution architect associate</a>
                       </div>
                   </div>
                   {/* <!-- end card body --> */}
@@ -250,7 +250,7 @@ const Overview = ({t}) => {
                                   </div>
                                   <div className="flex-grow-1 overflow-hidden">
                                       <p className="mb-1">Website :</p>
-                                      <a href="https://yvanmutara.github.io/Profile2.0/" className="fw-semibold">www.mutara.portofolio.com</a>
+                                      <a href="https://yvanmutara.github.io/Profile2.0/" className="fw-semibold">https://yvanmutara.github.io/Profile2.0/</a>
                                   </div>
                               </div>
                           </div>
